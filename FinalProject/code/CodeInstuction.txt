@@ -1,0 +1,30 @@
+/* two construction method used
+Two clilque tree construction methods are implemented in bn.cpp:
+1.Using VE:
+cliquetree cliqueTreeCon(const std::vector<int> &order) const;
+
+2.Using CG
+cliquetree cliqueTreeConCG() const;
+
+Both of them are implemented inside bn class. And they can be used by calling:
+/*
+    bn n;
+    cliquetree ct;
+    ct = n.cliqueTreeCon(order); or ct = n.cliqueTreeCG();
+    cliquetreePrint(ct).//show detail information of clique tree
+ */
+
+
+/* test vetest.cpp
+1. BN1, BN2, BN3, is generated using makeex(),makeex2(), and makeex3();
+2. cliquetreePrint() can be used to print out the detail information of the clique tree
+
+3. runtime test is used to compare the runtime
+
+
+
+
+
+
+
+ */
